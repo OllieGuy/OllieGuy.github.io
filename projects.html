@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Game Development Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="logo">
+            <h1><a href="index.html">Ollie Wright</a></h1>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About/Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+          </ul>
+      </nav>
+      <div class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <nav class="mobile-nav" data-visible="false">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About/Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div id = "projects-banner" class="banner">
+      <div class="banner-content">
+          <h1>Projects</h1>
+          <p><i>Alternatively, check out the <a href="blog.html" class="blog-link">blog</a></i></p>
+      </div>
+    </div>
+      
+      <div id="projects-container" class="projects-container">
+        <!-- Project cards inserted here by scripts.js -->
+      </div>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span> 
+            <span class="tldr-button prevent-select" onclick="toggleTLDR()">TLDR</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-date"></p>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+          <div class="footer-content">
+              <p>&copy; 2024 Ollie Wright. All Rights Reserved.</p>
+              <div class="footer-social">
+                  <a href="https://www.youtube.com/@OllieW" target="_blank" class="social-icon">
+                      <img src="images/other/icon-youtube.png" alt="YouTube">
+                  </a>
+                  <a href="https://www.linkedin.com/in/ollieswright/" target="_blank" class="social-icon">
+                      <img src="images/other/icon-linkedin.png" alt="LinkedIn">
+                  </a>
+                  <a href="https://github.com/OllieGuy" target="_blank" class="social-icon">
+                      <img src="images/other/icon-github.png" alt="GitHub">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </footer>
+  </div>
+
+  
+
+  <script src="scripts.js"></script>
+</body>
+</html>
