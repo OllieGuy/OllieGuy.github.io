@@ -664,7 +664,7 @@ const blogPosts = {
         <p>See the submitted video here: </p><br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/bym75FN01M8?si=VQG0DpoBOCd3zhcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
         
-        <p>Due to potential release, the game is not open source. If you want to know more about the codebase or design documents, please <a href="about.html" target="_blank">contact me</a>! </p><br>
+        <p>Due to potential release, the game is not open source. If you want to know more about the codebase or design documents, please <a href="./about" target="_blank">contact me</a>! </p><br>
         `,
         tldr: `
         <b>About</b>
@@ -1437,7 +1437,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <img src="${project.thumbnail}" alt="${project.title}" class="thumbnail">
         <div class="media-container">
             <video class="video" src="${project.video}" muted loop></video>
-            ${project.title === "Portfolio Website" ? `<div class="iframe-container"><iframe src="projects.html" class="scaled-iframe"></iframe></div>` : ''}
+            ${project.title === "Portfolio Website" ? `<div class="iframe-container"><iframe src="./projects" class="scaled-iframe"></iframe></div>` : ''}
         </div>
         <div class="content">
             <div class="title-date-container">
