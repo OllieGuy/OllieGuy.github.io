@@ -971,7 +971,7 @@ document.addEventListener('DOMContentLoaded', function () {
     allPostsSection.className = 'all-posts-background';
 
     listPosts.forEach(postId => {
-        const postElement = createNormalPostElement(postId);
+        const postElement = (window.innerWidth > 768) ? createNormalPostElement(postId) : createBlogCardElement(postId);
         allPostsSection.appendChild(postElement);
     });
 

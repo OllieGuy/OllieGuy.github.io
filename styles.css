@@ -138,7 +138,7 @@ header {
     color: #333;
 }
 
-/* Header: Media query for mobile view */
+/* Header: Mobile view */
 @media (max-width: 768px) {
     .desktop-nav {
         display: none;
@@ -448,8 +448,8 @@ footer {
     flex-wrap: wrap; /* Allow the footer content to wrap on smaller screens */
 }
 
-/* Weird page size/mobile formatting */
-@media (max-width: 1600px) {
+
+@media (max-width: 1000px) {
     .about-skills ul {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -458,18 +458,48 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+/* Weird page size/mobile formatting */
+@media (max-width: 1700px) {
+    /* Reduce padding on the navy/black background */
+    .about-container {
+        padding: 10px; /* Reduced padding */
+    }
+
+    /* Reduce padding on the grey part */
+    .about-main {
+        padding: 15px; /* Reduced padding */
+    }
+
+    /* Center the blue skills/education/proficiencies and grey contact boxes */
+    .about-education-skills-proficiencies-container, .about-contact {
+        margin-left: auto;
+        margin-right: auto;
+        width: 105%; /* Adjust width to ensure it fits well on mobile */
+        text-align: center;
+    }
+
+    /* Ensure subsections are on a new row and stacked */
     .about-education-skills-proficiencies-container {
-        flex-direction: column;
-        align-items: stretch;
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center;
+    }
+    .about-education, .about-skills, .about-proficiencies {
+        width: 100%; /* Take full width */
+        margin-bottom: 15px; /* Add some space between sections */
     }
 
-    .about-skills ul, .about-proficiencies ul {
-        grid-template-columns: repeat(1, 1fr);
+    /* Center the photo */
+    .about-picture {
+        text-align: center;
+        margin-top: 20px; /* Add some spacing from the text */
+    }
+    .about-picture img {
+        max-width: 80%; /* Adjust image size for mobile */
     }
 
-    .about-contact {
-        flex-direction: column;
+    /* Reduce the width of text containers */
+    .about-summary {
+        min-width: 95%; /* Ensures text doesn't spill */
     }
 }
 
@@ -528,9 +558,10 @@ footer {
 }
 
 .blog-post-card {
-    width: 430px;
+    min-width: 414px;
+    max-width: 414px;
     background-color: white;
-    margin: 10px 0;
+    margin: 10px 0 10px 0;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -544,11 +575,12 @@ footer {
 }
 
 .blog-post-card img {
-    height: auto;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-    width: 400px;
-    height: 400px;
+    min-width: 384px;
+    min-height: 216px;
+    max-width: 384px;
+    max-height: 216px;
     overflow: hidden;
     position: relative;
 }
@@ -712,28 +744,58 @@ footer {
     cursor: pointer;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .blog-post-card, .full-width-post {
-        width: 100vw;
-        max-width: 90vw;
-    }
-
-    .modal-content {
-        width: 90%;
-        max-height: 90vh;
-    }
-
-    .blog-post-card img, .full-width-post img {
-        width: 100%;
-        height: auto;
-    }
-}
-
 /* Ensure images in modal content fit within the modal */
 #modal-body img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .blog-highlights{
+        max-width: 100vw;
+    }
+    
+    .all-posts-background {
+        padding: 70px 10px;
+        margin-top: -50px;
+    }
+    
+    .blog-post-card {
+        max-height: none;
+        margin: 0px 0px 10px 0px;
+        min-width: 90vw;
+        max-width: 90vw;
+    }
+
+    .blog-post-card img {
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        min-width: 83vw;
+        min-height: 0;
+        max-width: 83vw;
+        max-height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 90vw;
+        height: 90%;
+        max-height: 90vh;
+        margin: auto;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .modal-content img,
+    .modal-content video,
+    .modal-content iframe{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 /* #endregion */
 
@@ -1010,6 +1072,7 @@ footer {
     padding: 2px 8px;
     font-size: 12px;
     color: #333;
+    cursor: pointer;
 }
 
 .project-card .long-description {
@@ -1117,6 +1180,42 @@ footer {
     transform: scale(0.5); /* Scale down to fit within the container */
     transform-origin: top left;
     border: none; /* Remove default iframe border */
+}
+
+@media (max-width: 768px) {
+    /* Project card adjustments for small screens */
+    .project-card {
+        width: 100%;
+        height: auto; /* Allow height to expand as needed */
+        margin-bottom: 20px;
+        cursor: pointer; /* Indicate that the card is clickable */
+    }
+
+    .project-card.expanded {
+        height: auto; /* Allow height to expand with content */
+    }
+
+    .description {
+        margin-bottom: 10px; /* Ensure spacing between cards */
+    }
+
+    .long-description {
+        margin-bottom: 20px; /* Ensure spacing between cards */
+    }
+
+    .project-card img, .project-card .video {
+        min-height: auto; /* Allow image/video height to adjust */
+        max-height: none; /* Remove max height restriction */
+    }
+
+    .project-card .content {
+        padding: 10px; /* Reduce padding for a more compact layout */
+    }
+
+    /* Hide the play button on smaller screens */
+    .play-btn {
+        display: none !important;
+    }
 }
 /* #endregion */
 
