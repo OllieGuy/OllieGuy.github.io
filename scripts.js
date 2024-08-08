@@ -983,10 +983,25 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     const burgerMenu = document.querySelector('.burger-menu');
     const mobileNav = document.querySelector('.mobile-nav');
-
-    burgerMenu.addEventListener('click', function () {
+    
+    // Function to toggle the mobile navigation
+    function toggleMobileNav() {
         const isVisible = mobileNav.getAttribute('data-visible') === 'true';
-        mobileNav.setAttribute('data-visible', !isVisible);
+        mobileNav.setAttribute('data-visible', isVisible ? 'false' : 'true');
+    }
+
+    // Event listener for the burger menu click
+    burgerMenu.addEventListener('click', function (event) {
+        toggleMobileNav();
+        event.stopPropagation(); // Prevent click from bubbling up to the document
+    });
+
+    // Event listener to close the mobile menu if clicking outside of it
+    document.addEventListener('click', function (event) {
+        const isVisible = mobileNav.getAttribute('data-visible') === 'true';
+        if (isVisible && !mobileNav.contains(event.target) && !burgerMenu.contains(event.target)) {
+            mobileNav.setAttribute('data-visible', 'false');
+        }
     });
 });
 
