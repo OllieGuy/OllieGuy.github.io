@@ -111,9 +111,9 @@ header {
     visibility: hidden;
     position: absolute;
     top: 95%;
-    right: -25px;
+    right: 0;
     background-color: rgba(51, 51, 51, 0.9);
-    width: 105vw;
+    width: 95vw;
     text-align: center;
     transform: translateY(-20px);
     opacity: 0;
@@ -244,6 +244,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+    
     .footer-content {
         flex-direction: column;
         text-align: center;
@@ -359,6 +360,7 @@ footer {
 .welcome-text a {
     color: #fff;
 }
+
 /* #endregion */
 
 /* #region About */
