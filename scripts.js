@@ -7,12 +7,11 @@ const blogPosts = {
         content: `
         <p>This was probably the first game that came out to a quality I was relatively happy with. It certainly has some bugs, but most things work as intended and it actually has an endpoint.</p>
         <br>
-        
-        <p>I created this with a group of 6 - although only 4 that contributed including myself. Specifically, I handled the general design and level design (although this wasn't fully realised due to time constraints) and the trailer for the game.</p>
+        <p>I created this with a group of 6 - although only 4 that contributed including myself. Specifically, I handled the generalised design and level design (although this wasn't fully realised due to time constraints), as  well as the trailer for the game.</p>
         <br>
         <img src='images/blog/zorth-core.jpg' alt='Zorth at the core'>
         <br>
-        <p><a href="https://itsvenom.itch.io/zorth" target="_blank">PLAY IT HERE</a></p>
+        <p><a href="https://itsvenom.itch.io/zorth" target="_blank" class="blog-play-btn">PLAY</a></p>
         `,
         tldr: `
         <b>About</b>
@@ -20,14 +19,16 @@ const blogPosts = {
         <b>Responsibilities</b>
             <ul>
                 <li>Working collaboratively to design the game, meeting remotely on discord</li>
-                <li>Level design, creating mockups and iterating</li>
+                <li>Level design, creating paper mockups and iterating</li>
             </ul><br>
         <b>Lessons</b>
             <ul>
             <li>Working with a small team to create a finished product</li>
-            <li>Importance of not over relying on a single team member to avoid burnout</li>
+            <li>Importance of even work distribution to avoid burnout</li>
             <li>Importance of QA testing, as the final version had a game breaking bug preventing respawns</li>
         </ul>
+        <br>
+        <p><a href="https://itsvenom.itch.io/zorth" target="_blank" class="blog-play-btn">PLAY</a></p>
         `,
         type: 'none'
     },
@@ -43,7 +44,7 @@ const blogPosts = {
         <br>
         <img src='images/blog/galacticFeline-gameplay.jpg' width="80%" alt='Gameplay of Galactic Feline'>
         <br>
-        <p><a href="https://mbutcher.itch.io/galactic-feline" target="_blank">PLAY IT HERE</a></p>
+        <p><a href="https://mbutcher.itch.io/galactic-feline" target="_blank" class="blog-play-btn">PLAY</a></p>
         `,
         tldr: `
         <b>About</b>
@@ -61,6 +62,8 @@ const blogPosts = {
                 <li>Working within the Unity Engine, as my experience was limited</li>
                 <li>Importance of communication to avoid late overscoping, my level designs were ultimately slimmed down for the sake of time</li>
             </ul>
+        <br>
+        <p><a href="https://mbutcher.itch.io/galactic-feline" target="_blank" class="blog-play-btn">PLAY</a></p>
         `,
         type: 'none'
     },
@@ -76,7 +79,8 @@ const blogPosts = {
             Your browser does not support the video tag.
         </video>
         <br>
-        <p>See more info about it here: </p><br>
+        <p><a href="https://www.youtube.com/watch?v=nOAB_lQPyyA" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nOAB_lQPyyA?si=3_YaasZFSnaXIWs-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -95,7 +99,8 @@ const blogPosts = {
                 <li>Finding areas of a model that are problematic (unnecessary polys)</li>
                 <li>Saving and backing up frequently</li>
             </ul>
-
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=nOAB_lQPyyA" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -111,8 +116,10 @@ const blogPosts = {
         <p>The approach was an improvement over an old system that I created as part of coursework in college. Originally, I planned to use a similar implementation to generate the maze, but instead ended up rewriting it much more efficiently (cut down a few hundred lines of code). The result was an object oriented approach using recursion, then using a player class to handle user behaviour.</p><br>
         <p>I received 78/100 marks on this project, and was very happy with the outcome.</p><br>
         
-        <p><a href="https://github.com/OllieGuy/TOGA-Artefact" target="_blank">Explore on Github</a></p><br>
-        <p>See more info about it here: </p><br>
+        <p><a href="https://github.com/OllieGuy/TOGA-Artefact" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=e1PF0aQS3zY" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/e1PF0aQS3zY?si=B5_1zmFIGvy9a95R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -130,6 +137,11 @@ const blogPosts = {
             <ul>
                 <li>Using C++, including memory management and pointers</li>
             </ul>
+        
+        <br>
+        <p><a href="https://github.com/OllieGuy/TOGA-Artefact" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=e1PF0aQS3zY" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -165,10 +177,11 @@ const blogPosts = {
             <b>Appendix/Bibliography</b>
                 <p>Ruuska, E. (2015). QUALITY ASSURANCE TESTING IN VIDEO GAMES. Thesus, 62.</p>
                 <p>Stephen Lavelle. (2021). BFXR (1.5.1) [Windows, macOS]. https://www.bfxr.net/</p>
-                <p>Unity Technologies. (2022). Unity (2021.3.1f1) [Windows]. Unity Technologies. unity.com</p><br>
+                <p>Unity Technologies. (2022). Unity (2021.3.1f1) [Windows]. Unity Technologies. unity.com</p>
         </div>
 
-        <p>See more info about it here: </p><br>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=Cw12vUXyIEU" target="_blank" class="blog-video-btn">Video</a></p><br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Cw12vUXyIEU?si=WS5a1odIZyIfrgYR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -187,6 +200,8 @@ const blogPosts = {
                 <li>Importance of accepting responsibility for failure</li>
                 <li>Methods of testing the game, although a number of bugs were not able to be fixed by the deadline</li>
             </ul>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=Cw12vUXyIEU" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -204,11 +219,14 @@ const blogPosts = {
         <img src='images/blog/goldrush-options.jpg' alt='Options for gameplay'><br>
         <p>I learnt a lot throughout the project, mostly related to working within the Unity engine. Already having a decent proficiency in C#, it was a case of applying it to the systems within Unity. The experience provided by this project should mean that my creation of future games in the engine is optimised greatly, as this taught me a lot of the foundational elements of the engine, allowing me to experiment whilst working towards an end goal.</p><br>
         <p>This project received a grade of 75/100. Although that was the final mark, the game itself was awarded 85/100, with the final mark received being lowered by certain elements of my evaluation in the video.</p><br>
-        <img src='images/blog/goldrush-gameplay.jpg' alt='Options for gameplay'><br>
+        <img src='images/blog/goldrush-gameplay.jpg' alt='Options for gameplay'>
 
-        <p><a href="https://olliewright.itch.io/goldrush" target="_blank">PLAY IT HERE</a> (if you get an error, reload the page)</p><br>
-        <p><a href="https://github.com/OllieGuy/GOLDRUSH" target="_blank">Explore on Github</a> (in the master branch)</p><br>
-        <p>See more info about it here: </p><br>
+        <br>
+        <p><a href="https://olliewright.itch.io/goldrush" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/GOLDRUSH" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=Nbdb4g8cxTM" target="_blank" class="blog-video-btn">Video</a></p><br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Nbdb4g8cxTM?si=jUNPPGcosz60ZQ5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -226,6 +244,12 @@ const blogPosts = {
                 <li>Adapting my prior knowledge of C# to the Unity engine</li>
                 <li>Using version control (GitHub)</li>
             </ul>
+        <br>
+        <p><a href="https://olliewright.itch.io/goldrush" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/GOLDRUSH" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=Nbdb4g8cxTM" target="_blank" class="blog-video-btn">Video</a></p><br>
         `,
         type: 'none'
     },
@@ -246,10 +270,16 @@ const blogPosts = {
         <p>This program was written in C# and later ported to C++, and uses the console to display the results of the battles. The link for the GitHub page for the program is below.</p><br>
         <img src='images/blog/cedriksCrown-battle.jpg' alt='Battle simulator'><br>
         <p>In relation to the actual gameplay itself, 8 major Game Design Documents were created before the final rulebook, which itself had some last minute edge case corrections. This project allowed me to develop my skills of iteration, collaboration, and leadership.</p><br>
-        <p>The game was a fun but eye-opening venture into the pure theory behind game design, and we ended up with a game that we were very pleased with after all the time that was put into it. This project received a grade of 81/100, and my personal grade was 90/100.</p><br>
+        <p>The game was a fun but eye-opening venture into the pure theory behind game design, and we ended up with a game that we were very pleased with after all the time that was put into it. This project received a grade of 81/100, and my personal grade was 90/100.</p>
 
-        <p><a href="https://github.com/OllieGuy/Cedriks-Crown-Battle-Simulator" target="_blank">Explore the battle simulator on Github</a></p><br>
-        <p><a href="https://docs.google.com/presentation/d/1tfI_2-UYEN5rVomET5nU_kgLp3g023vW1F2vUyQo4Pw/edit?usp=sharing" target="_blank">Slideshow about the game</a></p><br>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/1tfI_2-UYEN5rVomET5nU_kgLp3g023vW1F2vUyQo4Pw/edit?usp=sharing" target="_blank" class="blog-document-btn">Presentation Slides</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/Cedriks-Crown-Battle-Simulator" target="_blank" class="blog-github-btn">Battle Sim on Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=WXZz9AHTzcU" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WXZz9AHTzcU?si=F6PY-lrzZXFA9x6N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
         <b>About</b>
@@ -267,6 +297,12 @@ const blogPosts = {
                 <li>The importance of “Killing your darlings” for the good of a project - I was forced to scrap substantial systems throughout development</li>
                 <li>The process of QA testing</li>
             </ul>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/1tfI_2-UYEN5rVomET5nU_kgLp3g023vW1F2vUyQo4Pw/edit?usp=sharing" target="_blank" class="blog-document-btn">Presentation Slides</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/Cedriks-Crown-Battle-Simulator" target="_blank" class="blog-github-btn">Battle Sim on Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=WXZz9AHTzcU" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -293,10 +329,13 @@ const blogPosts = {
         </div>
 
         <p>I was very happy with the outcome of this project. I learned a lot about a common technique used to facilitate "random" generation, whilst also greatly improving my understanding of vectors and matrices, whilst touching on more general skills, such as mesh manipulation and texturing. I also scored a 100 on the exam for this module.</p><br>
-        <img src='images/blog/perlinNoise-2d.jpg' alt='Perlin noise on a 2D plane'><br>
+        <img src='images/blog/perlinNoise-2d.jpg' alt='Perlin noise on a 2D plane'>
 
-        <p><a href="https://github.com/OllieGuy/Perlin-Generation" target="_blank">Explore on Github</a></p><br>
-        <p>See more info about it here: </p><br>
+        <br>
+        <p><a href="https://github.com/OllieGuy/Perlin-Generation" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=iog9GgOUovI" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iog9GgOUovI?si=j-Y0QBbMb788IH3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -315,6 +354,10 @@ const blogPosts = {
                 <li>How to manipulate meshes and generate textures through code</li>
                 <li>Testing edge cases and accounting for such in the calculations</li>
             </ul>
+        <br>
+        <p><a href="https://github.com/OllieGuy/Perlin-Generation" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=iog9GgOUovI" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -349,10 +392,15 @@ const blogPosts = {
             <p>88/100</p><br>
         </div>
 
-        <p><a href="https://olliewright.itch.io/press-space" target="_blank">PLAY IT HERE</a> (Please note: this is an older version of the game and has known bugs - the Press Space Redux download is a lot more stable)</p><br>
-        <p><a href="https://github.com/OllieGuy/Press-Space" target="_blank">Explore on Github</a></p><br>
-        <p><a href="https://docs.google.com/document/d/19V3mbFz-ypqlpFYI4P9UQ7mxb9qY_NHfu21vyWFO18w/edit?usp=sharing" target="_blank">GDD Google Doc</a></p><br>
-        <p>See the submitted video here: </p><br>
+        <br>
+        <p><a href="https://docs.google.com/document/d/19V3mbFz-ypqlpFYI4P9UQ7mxb9qY_NHfu21vyWFO18w/edit?usp=sharing" target="_blank" class="blog-document-btn">Game Design Document</a></p>
+        <br>
+        <p><a href="https://olliewright.itch.io/press-space" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/Press-Space" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=D0zBu3vQZxQ" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/D0zBu3vQZxQ?si=qClN5ZOxddWvzXRi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -370,6 +418,14 @@ const blogPosts = {
                 <li>Presenting the game to the public and industry at a University event</li>
                 <li>Time and resource management for a project with a larger scope than any previous</li>
             </ul>
+        <br>
+        <p><a href="https://docs.google.com/document/d/19V3mbFz-ypqlpFYI4P9UQ7mxb9qY_NHfu21vyWFO18w/edit?usp=sharing" target="_blank" class="blog-document-btn">Game Design Document</a></p>
+        <br>
+        <p><a href="https://olliewright.itch.io/press-space" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/Press-Space" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=D0zBu3vQZxQ" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -476,12 +532,16 @@ const blogPosts = {
             <p>Report Intro - Excellent introduction. Well researched, well defined artefact and good level of contextualisation.</p><br>
             <p>Outstanding analysis section - you've discussed the pros and cons of every technique you're planning to look at, justified your choices and contextualised. Exactly what we're looking for!</p><br>
             <p>Excellent and relevant reflections. Great research informed suggestions for improvement. A bit more on the evaluation of your own performance would've been good (like did you manage your time effectively? Did you keep motivated? etc.).</p><br>
-            <p>Overall, this is an incredibly good project, something you should be very proud of! Nice job!</p><br>
+            <p>Overall, this is an incredibly good project, something you should be very proud of! Nice job!</p>
         </div>
 
-        <p><a href="https://github.com/OllieGuy/GAMAI" target="_blank">Explore on Github</a></p><br>
-        <p><a href="https://docs.google.com/document/d/1_CmVVuVnZ_SF30aROeygN9QYSlTI90ruAuic0oOsNi0/edit?usp=sharing" target="_blank">Rationale Google Doc</a></p><br>
-        <p>See the submitted video here: </p><br>
+        <br>
+        <p><a href="https://docs.google.com/document/d/1_CmVVuVnZ_SF30aROeygN9QYSlTI90ruAuic0oOsNi0/edit?usp=sharing" target="_blank" class="blog-document-btn">Documentation</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/GAMAI" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=RHzt8AeO3JM" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RHzt8AeO3JM?si=nlAOIihDz6c_bgK_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
         `,
         tldr: `
@@ -499,6 +559,12 @@ const blogPosts = {
                 <li>Research of industry standards of AI agent development for games</li>
                 <li>Optimising for simulation of thousands of agents</li>
             </ul>
+        <br>
+        <p><a href="https://docs.google.com/document/d/1_CmVVuVnZ_SF30aROeygN9QYSlTI90ruAuic0oOsNi0/edit?usp=sharing" target="_blank" class="blog-document-btn">Documentation</a></p>
+        <br>
+        <p><a href="https://github.com/OllieGuy/GAMAI" target="_blank" class="blog-github-btn">Github</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=RHzt8AeO3JM" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -538,10 +604,14 @@ const blogPosts = {
             Love the audio, by the way! :)</p><br>
             <p>Conclusion offers a reflective summary of each step of the project before more conclusive closing remarks. You're a little hard on yourself, but it's a very honest reflection in some cases. There's a strong argument for some useful findings here, well contextualised in the games industry and in design practices.</p><br>
             <p>20k words is a little bit much, but it's very well written and largely well structured. It does get a little messy in structure in places, such as in the lit review, and there's some thought needed towards the 'flow' of the argument here.</p><br>
-            <p>Overall, there's a good amount of work here - yes your time could have been managed better but you've still made some great progress. While a bit messy in places, there's a lot of critical and reflective discussion here with a genuine attempt to explore an underexplored area of game studies. </p><br>
+            <p>Overall, there's a good amount of work here - yes your time could have been managed better but you've still made some great progress. While a bit messy in places, there's a lot of critical and reflective discussion here with a genuine attempt to explore an underexplored area of game studies. </p>
         </div>
-        <p><a href="https://docs.google.com/document/d/1sbb-E0_SwEKddX39DzQPaJ5sL67WbSWTooxL5XghPB4/edit?usp=sharing" target="_blank">See the paper here</a> (warning: it’s incredibly long)</p><br>
-        <p>See the submitted video here: </p><br>
+
+        <br>
+        <p><a href="https://docs.google.com/document/d/1sbb-E0_SwEKddX39DzQPaJ5sL67WbSWTooxL5XghPB4/edit?usp=sharing" target="_blank" class="blog-document-btn">Full Paper</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=NzSinHGyk4g" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/NzSinHGyk4g?si=D1CjRpHXMZ9R2plS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -560,6 +630,10 @@ const blogPosts = {
                 <li>Cutting excess content</li>
                 <li>Adapting and building on existing systems for my own use</li>
             </ul>
+        <br>
+        <p><a href="https://docs.google.com/document/d/1sbb-E0_SwEKddX39DzQPaJ5sL67WbSWTooxL5XghPB4/edit?usp=sharing" target="_blank" class="blog-document-btn">Full Paper</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=NzSinHGyk4g" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'none'
     },
@@ -578,10 +652,15 @@ const blogPosts = {
         
         <p>The biggest change was moving the narrator's introduction to right at the beginning of the game in order to guide players more than in the original version. Navigating the original section before his introduction seemed to be the largest roadblock for new players, as evidenced by players at the Grad Show last year. I was careful to try and preserve the theming and general progression of the game, with the more abstract theming of the first section and the lack of visual fidelity - which did helpfully speed up development time!</p><br>
         <p>The project (alongside 2 essays) received a 74. Pete, my lecturer, made this comment on the implementation section:</p><br>
-        <div class="quote">The implementation video demonstrates the new features well - your solution to presenting a difficult to present game is very good and your voiceover is professional and well-spoken. You do make correct references to transludic knowledge here too. The explanation of your implementation is linked well to the psychological concepts and you offer good evaluative reflection on both the implementation and on the additional playtesting feedback. Gathering new feedback wasn't a necessary part of the module so it's excellent that you've gone out and done this, even if it is from a limited pool of participants. Your identification of areas for further potential improvements was also well-reasoned and shows good design thinking and self-reflection on your work.</p><br></div>
+        <div class="quote">The implementation video demonstrates the new features well - your solution to presenting a difficult to present game is very good and your voiceover is professional and well-spoken. You do make correct references to transludic knowledge here too. The explanation of your implementation is linked well to the psychological concepts and you offer good evaluative reflection on both the implementation and on the additional playtesting feedback. Gathering new feedback wasn't a necessary part of the module so it's excellent that you've gone out and done this, even if it is from a limited pool of participants. Your identification of areas for further potential improvements was also well-reasoned and shows good design thinking and self-reflection on your work.</p></div>
 
-        <p><a href="https://olliewright.itch.io/press-space-redux" target="_blank">PLAY IT HERE</a></p><br>
-        <p>See the submitted video here: </p><br>
+        <br>
+        <p><a href="https://docs.google.com/document/d/1w4tAvlb7YQn-YbCAyw4L6X3tf6YQPRPrFCh2h-FJ-JQ/edit?usp=sharing" target="_blank" class="blog-document-btn">Associated Document</a></p>
+        <br>
+        <p><a href="https://olliewright.itch.io/press-space-redux" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=85wy4JD-oBY" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/85wy4JD-oBY?si=TDrrL_2Map9R9hje" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         tldr: `
@@ -600,6 +679,12 @@ const blogPosts = {
                 <li>Using existing feedback (from the Grad Show) to iterate a design</li>
                 <li>Identifying areas of weakness within an existing design</li>
             </ul>
+        <br>
+        <p><a href="https://docs.google.com/document/d/1w4tAvlb7YQn-YbCAyw4L6X3tf6YQPRPrFCh2h-FJ-JQ/edit?usp=sharing" target="_blank" class="blog-document-btn">Associated Document</a></p>
+        <br>
+        <p><a href="https://olliewright.itch.io/press-space-redux" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=85wy4JD-oBY" target="_blank" class="blog-video-btn">Video</a></p>
         `,
         type: 'recommended'
     },
@@ -658,13 +743,22 @@ const blogPosts = {
 
         <p>In addition to this, peer feedback was overwhelmingly positive, and the feedback from both Ted the lecturer, and the client was that it surpassed the previous year’s TIGA award winning game. At the time of writing, Curation has been submitted to the 2024 TIGA awards. The team has continued to make small improvements, such as adding a saving functionality, and my personal addition of the ability to create rooms rather than just walls, as we aim to release the game onto steam at some point in the future.</p><br>
 
-        <p>To reflect on the project, I am really happy with where it ended up. As we produced it, I was actually enjoying it so much that I was working on it in my spare time. The project received an 84, and I received an 86 - the highest mark in the class - due to the effort I put in. This was probably my proudest achievement throughout university.</p><br>
+        <p>To reflect on the project, I am really happy with where it ended up. As we produced it, I was actually enjoying it so much that I was working on it in my spare time. The project received an 84, and I received an 86 - the highest mark in the class - due to the effort I put in. This was probably my proudest achievement throughout university.</p>
 
-        <p><a href="https://emunday.itch.io/curation" target="_blank">PLAY IT HERE</a></p><br>
-        <p>See the submitted video here: </p><br>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/1JH_x2XiCNdlVglXmklDvu-IFaZFURyzQNhObVEcRerU/edit?usp=sharing" target="_blank" class="blog-document-btn">Concept Presentation</a></p>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/1gCTpSsGxZvFgb5-vvrgV1SekaVFannUppGAb24cFktU/edit?usp=sharing" target="_blank" class="blog-document-btn">Presentation Slides (December Prototype)</a></p>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/19dCsmTmjanVfMWSCc1Fcx9vdcAwuAU2TDN27mYeKmK4/edit?usp=sharing" target="_blank" class="blog-document-btn">Presentation Slides (Final)</a></p>
+        <br>
+        <p><a href="https://emunday.itch.io/curation" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=bym75FN01M8" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/bym75FN01M8?si=VQG0DpoBOCd3zhcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
         
-        <p>Due to potential release, the game is not open source. If you want to know more about the codebase or design documents, please <a href="./about" target="_blank">contact me</a>! </p><br>
+        <p>Due to potential release, the game is not open source. If you want to know more about the codebase or design documents, please <a href="mailto:contact@ollieportfolio.com" target="_blank">contact me</a>! </p><br>
         `,
         tldr: `
         <b>About</b>
@@ -682,6 +776,17 @@ const blogPosts = {
                 <li>Full stack development, working from the inception and pre-production through to final product (now nearing release)</li>
                 <li>Working alongside a professional client</li>
             </ul>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/1JH_x2XiCNdlVglXmklDvu-IFaZFURyzQNhObVEcRerU/edit?usp=sharing" target="_blank" class="blog-document-btn">Concept Presentation</a></p>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/1gCTpSsGxZvFgb5-vvrgV1SekaVFannUppGAb24cFktU/edit?usp=sharing" target="_blank" class="blog-document-btn">Presentation Slides (December Prototype)</a></p>
+        <br>
+        <p><a href="https://docs.google.com/presentation/d/19dCsmTmjanVfMWSCc1Fcx9vdcAwuAU2TDN27mYeKmK4/edit?usp=sharing" target="_blank" class="blog-document-btn">Presentation Slides (Final)</a></p>
+        <br>
+        <p><a href="https://emunday.itch.io/curation" target="_blank" class="blog-play-btn">Play</a></p>
+        <br>
+        <p><a href="https://www.youtube.com/watch?v=bym75FN01M8" target="_blank" class="blog-video-btn">Video</a></p>
+        <br>
         `,
         type: 'recommended'
     },

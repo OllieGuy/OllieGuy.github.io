@@ -163,10 +163,11 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    height: 5vh;
+    height: auto; /* Changed from 5vh to auto to accommodate additional content */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1vh 0; /* Added padding to ensure content isn't too close to the edges */
 }
 
 .footer-container {
@@ -177,6 +178,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
 }
 
 .footer-content {
@@ -184,6 +186,23 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+}
+
+.footer-content .footer-left {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-content .footer-center {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-content .footer-social {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer-content p {
@@ -200,13 +219,48 @@ footer {
     max-width: 25px;
     max-height: 25px;
     margin: 0 10px;
-    /* background-size: cover; */
     transition: background-color 0.3s, transform 0.3s;
     filter: invert(1);
 }
 
 .social-icon:hover {
     transform: scale(1.1);
+}
+
+/* Bug Icon Styling */
+.bug-link {
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bug-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    filter: invert(1);
+    transition: none;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-social {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin-top: 10px;
+    }
 }
 
 /* #endregion */
@@ -319,7 +373,7 @@ footer {
 
 .about-container {
     background-color: #0b0c10;
-    padding: 20px;
+    padding: 15px;
     width: 100%; /* Ensure the container takes the full width */
     flex: 1; /* Allow it to grow and fill available space */
     display: flex;
@@ -384,7 +438,7 @@ footer {
 }
 
 /* Individual sections within the container */
-.about-education, .about-skills, .about-proficiencies {
+.about-education, .about-skills, .about-proficiencies, .about-contact {
     display: flex;
     flex-direction: column;
     color: #1f2833;
@@ -404,12 +458,20 @@ footer {
     flex: 1;
 }
 
+.about-contact {
+    flex: 1;
+}
+
 /* Headers within each section */
-.about-education h3, .about-skills h3, .about-proficiencies h3 {
+.about-education h3, .about-skills h3, .about-proficiencies h3, .about-contact h3 {
     font-size: 1.2em;
     border-bottom: 1px solid #1f2833;
     padding-bottom: 5px;
     margin-bottom: 10px;
+}
+
+.about-contact a {
+    color: #1f2833;
 }
 
 /* Skills list */
@@ -437,7 +499,7 @@ footer {
 }
 
 /* Footer/contact section */
-.about-contact {
+.about-contact-container {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -471,7 +533,7 @@ footer {
     }
 
     /* Center the blue skills/education/proficiencies and grey contact boxes */
-    .about-education-skills-proficiencies-container, .about-contact {
+    .about-education-skills-proficiencies-container, .about-contact-container {
         margin-left: auto;
         margin-right: auto;
         width: 105%; /* Adjust width to ensure it fits well on mobile */
@@ -712,6 +774,55 @@ footer {
 .modal-content .quote {
     text-align: center;
     font-style: italic;
+}
+
+.blog-play-btn, .blog-github-btn, .blog-document-btn, .blog-video-btn{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 24px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.blog-play-btn{
+    background-color: #6ed171;
+}
+
+.blog-play-btn:hover {
+    background-color: #4f9e53;
+}
+
+.blog-github-btn{
+    background-color: #d49b50;
+}
+
+.blog-github-btn:hover {
+    background-color: #b08041;
+}
+
+.blog-document-btn{
+    background-color: #53b0b8;
+}
+
+.blog-document-btn:hover {
+    background-color: #3e848a;
+}
+
+.blog-video-btn{
+    background-color: #a33e3e;
+}
+
+.blog-video-btn:hover {
+    background-color: #853030;
 }
 
 .tldr-button {
