@@ -582,6 +582,7 @@ footer {
 .blog-title h1 {
     text-align: center;
     border-bottom: 2px solid #8b8b8b;
+    padding-top: 15px;
     padding-bottom: 10px;
     max-width: 20vh;
     margin:auto;
@@ -990,8 +991,30 @@ footer {
     }
 }
 
+@keyframes backgroundColorChange {
+    40%, 55%,  60%, 75% { 
+        background-color: rgba(255, 255, 255, 0.4);
+        box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.4);
+    }
+    0%, 15%, 20%, 35%, 80%, 95%, 100%{ 
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.projects-title-box {
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    
+}
+
 .banner-content {
     animation: textColorChange 25s infinite;
+}
+
+.projects-title-box  {
+    animation: backgroundColorChange 25s infinite;
 }
 
 /* Projects: Main Content */
