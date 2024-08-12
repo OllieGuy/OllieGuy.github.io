@@ -373,7 +373,7 @@ footer {
 }
 
 .about-container {
-    background-color: #0b0c10;
+    /* background-color: #0b0c10; */
     padding: 15px;
     width: 100%;
     flex: 1; /* Allow it to grow and fill available space */
@@ -384,18 +384,18 @@ footer {
 .about-header {
     text-align: center;
     margin-bottom: 20px;
-    background-color: #45a29e;
+    background-color: #333;
     border-radius: 10px;
 }
 
 .about-header h1 {
     font-size: 3em;
-    color: #1f2833;
+    color: #e0e0e0;
 }
 
 .about-header h2 {
     font-size: 1.5em;
-    color: #1f2833;
+    color: #e0e0e0;
     margin-top: -5px;
 }
 
@@ -404,8 +404,8 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 20px;
-    color: #fff;
-    background-color: #333;
+    color: #000;
+    background-color: #e0e0e0;
     padding: 20px;
     flex-wrap: wrap;
     flex: 1;
@@ -431,7 +431,7 @@ footer {
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    background-color: #45a29e;
+    background-color: #333;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
@@ -442,7 +442,7 @@ footer {
 .about-education, .about-skills, .about-proficiencies, .about-contact {
     display: flex;
     flex-direction: column;
-    color: #1f2833;
+    color: #e0e0e0;
     min-width: 100px; /* Minimum width for better responsiveness */
     box-sizing: border-box;
 }
@@ -460,19 +460,27 @@ footer {
 }
 
 .about-contact {
+    color: #000;
     flex: 1;
 }
 
 /* Headers within each section */
-.about-education h3, .about-skills h3, .about-proficiencies h3, .about-contact h3 {
+.about-education h3, .about-skills h3, .about-proficiencies h3{
     font-size: 1.2em;
-    border-bottom: 1px solid #1f2833;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.about-contact h3 {
+    font-size: 1.2em;
+    border-bottom: 1px solid #000;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .about-contact a {
-    color: #1f2833;
+    color: #000;
 }
 
 /* Skills list */
@@ -496,7 +504,7 @@ footer {
 
 /* List items */
 .about-skills li, .about-proficiencies li {
-    color: #1f2833;
+    color: #e0e0e0;
 }
 
 /* Footer/contact section */
@@ -504,7 +512,7 @@ footer {
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: #888;
+    background-color: #fff;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px; /* Push the contact box to the bottom */
