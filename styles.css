@@ -369,13 +369,13 @@ footer {
     flex-direction: column;
     justify-content: flex-start; /* Align items to the top */
     align-items: stretch; /* Stretch items to fill the container */
-    min-height: 90vh; /* Ensure it takes at least the full viewport height */
+    min-height: 90vh;
 }
 
 .about-container {
     background-color: #0b0c10;
     padding: 15px;
-    width: 100%; /* Ensure the container takes the full width */
+    width: 100%;
     flex: 1; /* Allow it to grow and fill available space */
     display: flex;
     flex-direction: column;
@@ -444,7 +444,7 @@ footer {
     flex-direction: column;
     color: #1f2833;
     min-width: 100px; /* Minimum width for better responsiveness */
-    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+    box-sizing: border-box;
 }
 
 .about-education {
@@ -537,11 +537,10 @@ footer {
     .about-education-skills-proficiencies-container, .about-contact-container {
         margin-left: auto;
         margin-right: auto;
-        width: 105%; /* Adjust width to ensure it fits well on mobile */
+        width: 105%;
         text-align: center;
     }
 
-    /* Ensure subsections are on a new row and stacked */
     .about-education-skills-proficiencies-container {
         flex-direction: column; /* Stack sections vertically */
         align-items: center;
@@ -562,7 +561,7 @@ footer {
 
     /* Reduce the width of text containers */
     .about-summary {
-        min-width: 95%; /* Ensures text doesn't spill */
+        min-width: 95%; /* Stops text spill */
     }
 }
 
@@ -856,7 +855,6 @@ footer {
     cursor: pointer;
 }
 
-/* Ensure images in modal content fit within the modal */
 #modal-body img {
     max-width: 100%;
     height: auto;
@@ -1278,7 +1276,7 @@ footer {
     width: 100%;
     height: 300px; /* Adjust as needed to fit your design */
     overflow: hidden;
-    flex-shrink: 0; /* Ensure it doesn't shrink */
+    flex-shrink: 0;
 }
 
 .project-card.expanded .iframe-container {
@@ -1308,11 +1306,11 @@ footer {
     }
 
     .description {
-        margin-bottom: 10px; /* Ensure spacing between cards */
+        margin-bottom: 10px;
     }
 
     .long-description {
-        margin-bottom: 20px; /* Ensure spacing between cards */
+        margin-bottom: 20px;
     }
 
     .project-card img, .project-card .video {

@@ -48,10 +48,10 @@ const blogPosts = {
         `,
         tldr: `
         <b>About</b>
-        <p>Galactic Feline was made in 2 weeks for an internal university game jam aimed at replicating Starfox. I worked in a team of 12, and the game was well received by both peers and the lecturer.</p><br>
+        <p>Galactic Feline was made in 2 weeks for an internal university game jam aimed at replicating Starfox. I worked in a team of 12, and the game was well received by both peers and the lecturer</p><br>
         <b>Responsibilities</b>
             <ul>
-                <li>Effective communication with a large team remotely through discord, and in a handful of scheduled in person meetings</li>
+                <li>Effective communication with a large team remotely through Discord, and in a handful of scheduled in person meetings</li>
                 <li>Level design and implementation in Engine</li>
                 <li>Enemy design/Combat design and implementation in Engine</li>
                 <li>Documentation using Google Docs</li>
@@ -59,8 +59,8 @@ const blogPosts = {
         <b>Lessons</b>
             <ul>
                 <li>Working with a large team</li>
-                <li>Working within the Unity Engine, as my experience was limited</li>
-                <li>Importance of communication to avoid late overscoping, my level designs were ultimately slimmed down for the sake of time</li>
+                <li>Working within the Unity Engine, as my experience was limited at the beginning of the project</li>
+                <li>Importance of communication to avoid overscoping, as my level designs were ultimately slimmed down for the sake of time</li>
             </ul>
         <br>
         <p><a href="https://mbutcher.itch.io/galactic-feline" target="_blank" class="blog-play-btn">PLAY</a></p>
@@ -70,10 +70,10 @@ const blogPosts = {
     pcModel: {
         title: "PC 3D model",
         date: "April 30, 2022",
-        summary: "I created a 3D model of my PC for my Foundation in 3D Modelling module",
+        summary: "I created a 3D model of my PC for my Foundations in 3D Modelling module",
         thumbnail: "images/blog/pcModel-thumbnail.jpg",
         content: `
-        <p>The final 3D modelling project of my first year was to create a 3D model of an object of our choice. I was not very confident with my 3D modelling skills, as art definitely isn’t my choice of discipline, but I chose to recreate my PC in 3DS MAX. I am pretty happy with the result - as a designer and programmer, something recognisable is great! This project received a 75.</p><br>
+        <p>The final 3D modelling project of my first year was to create a model of an object of our choice. I was not very confident with my modelling skills, as art definitely isn’t my choice of discipline, but I chose to recreate my PC in 3DS MAX. I am pretty happy with the result - as a designer and programmer, something recognisable is great! This project received a 75.</p><br>
         <video width="560" height="315" controls>
             <source src="images/blog/pcModel-render.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -90,13 +90,13 @@ const blogPosts = {
             <ul>
                 <li>Effectively producing reference photos of my PC</li>
                 <li>Creating a 3D model to an industry standard</li>
-                <li>Using a renderer to produce a rendered video</li>
+                <li>Using a renderer to produce a rendered clip</li>
                 <li>Scripting, recording, and editing an accompanying video</li>
             </ul><br>
         <b>Lessons</b>
             <ul>
                 <li>Use of 3DS max</li>
-                <li>Finding areas of a model that are problematic (unnecessary polys)</li>
+                <li>Finding areas of a model that are problematic (unnecessary polygon usage etc.)</li>
                 <li>Saving and backing up frequently</li>
             </ul>
         <br>
@@ -110,11 +110,11 @@ const blogPosts = {
         summary: "A maze game aimed at establishing foundations in C++",
         thumbnail: "images/blog/maze-thumbnail.jpg",
         content: `
-        <p>For the final coding project of year 1, we were tasked with creating a simple console based game to show off our knowledge of C++. I chose to create a game that generated a maze that could be traversed by the player. The goal is to collect all of the coins to unlock the exit.</p><br>
+        <p>For the final coding project of year 1, we were tasked with creating a simple console based game to show off our knowledge of C++. I chose to create a game that generated a maze to be traversed by the player. The goal is to collect all of the coins to unlock the exit.</p><br>
         <p>It took around 30 hours or so to complete, but a lot of the time was related research. Once I completed the game, I was very happy with the result. The ability to set the parameters of the maze generation added a lot of depth to the game, making it fun to replay.</p><br>
         <img src='images/blog/maze-options.jpg' alt='Maze options'><br>
-        <p>The approach was an improvement over an old system that I created as part of coursework in college. Originally, I planned to use a similar implementation to generate the maze, but instead ended up rewriting it much more efficiently (cut down a few hundred lines of code). The result was an object oriented approach using recursion, then using a player class to handle user behaviour.</p><br>
-        <p>I received 78/100 marks on this project, and was very happy with the outcome.</p><br>
+        <p>The algorithmic approach was an improvement over an old system that I created as part of coursework in college. Originally, I planned to use a similar implementation to generate the maze, but instead ended up rewriting it much more efficiently (cutting down a few hundred lines of code). The result was an object oriented approach using recursion, then using a player class to handle user behaviour.</p><br>
+        <p>I received 78/100 marks on this project.</p><br>
         
         <p><a href="https://github.com/OllieGuy/TOGA-Artefact" target="_blank" class="blog-github-btn">Github</a></p>
         <br>
@@ -128,7 +128,7 @@ const blogPosts = {
         <b>Responsibilities</b>
             <ul>
                 <li>Researching methods of maze generation, eventually using recursive backtracking</li>
-                <li>Use C++ to optimise code from a project from college (I reduced the generation algorithm by hundreds of lines)</li>
+                <li>Use C++ to optimise code from an old project created in college (I reduced the generation algorithm by hundreds of lines)</li>
                 <li>Adding replayability by allowing users to customise the maze</li>
                 <li>Object oriented implementation</li>
                 <li>Scripting, recording, and editing an accompanying video</li>
@@ -151,15 +151,15 @@ const blogPosts = {
         summary: "A group project that didn't go to plan",
         thumbnail: "images/blog/elements-thumbnail.jpg",
         content: `
-        <p><i>This section was written on 3/8/24:</i><br>The 4 elements was the final group project in my first year. It was the project with the longest time between the brief and the deadline in that year, yet it had very few hours committed to it compared to the recommended. Normally, I would be reluctant to include it due to not being up to a standard that I would deem presentable, but I think projects such as this are important learning experiences.</p><br>
+        <p><i>This section was written on 3/8/24:</i><br>The 4 elements was the final group project in my first year. It was the project with the longest time between the brief and the deadline in that year, yet it had very few hours committed to it compared to the recommended amount. Normally, I would be reluctant to include it due to not being to a standard that I would deem presentable, but I think projects such as this are important learning experiences.</p><br>
         <p>Even in the original write up below, you can see my failing to take responsibility for the results of the project. Whilst I contributed what I could, I was still complacent as a designer, in that I should have been working in-engine far earlier than I did. I should have set up prototypes and blockouts earlier on in the process, and taken more initiative in rallying the group, despite not being the leader.</p><br>
-        <p>The project produced from this module was sub-par comparatively to all other work that I submitted prior and since, but without the lessons taught by this failure, I could not be where I am now. The lessons I learned on proactivity rather than reactivity, and the wake up call of receiving a 2-2 on the project (I luckily got high marks on the solo section resulting in a 2-1 overall) pushed me to dedicate so much more time to making sure that never happened in the later years, receiving firsts on every project bar one in the following two years.</p><br>
+        <p>The project produced from this module was sub-par comparatively to all other work that I submitted prior and since, but without the lessons taught by this failure, I could not be where I am now. The lessons I learned on proactivity rather than reactivity, and the wake up call of receiving a 2-2 on the project (I luckily got high marks on the solo section resulting in a 2-1 overall) pushed me to dedicate much more time to making sure that never happened afterwards, receiving firsts on every project bar one in the following two years.</p><br>
         <img src='images/blog/elements-desert.jpg' alt='Gameplay from the 4 elements'><br>
         <p>The following was originally written in May 2022 as part of the TDEMO group project module, as the solo section of the assessment:</p><br>
         
         <div class="quote">
             <b>Intro</b>
-                <p>I was the lead designer of The 4 Elements, the final TDEMO project by the team Twinkie Finger 2. My primary role was to provide direction to the other members of the team with regard to the planning, level design, general design, assets required, and work division. We were given about 3 months on this project, although actual work was mostly concentrated between the first 2 weeks and the last 3 - the majority of my work as a designer was completed in the prior block, the latter is mostly the other miscellaneous jobs I took on in order to to contribute the maximum amount I could to the team. I also handled the creation of the final video that displayed and explained the project.</p><br>
+                <p>I was the lead designer of The 4 Elements, the final TDEMO project by the team Twinkie Finger 2. My primary role was to provide direction to the other members of the team with regard to the planning, level design, general design, assets required, and work division. We were given about 3 months on this project, although actual work was mostly concentrated between the first 2 weeks and the final 3 - the majority of my work as a designer was completed in the prior block, the latter is mostly the other miscellaneous jobs I took on in order to to contribute the maximum amount I could to the team. I also handled the creation of the final video that displayed and explained the project.</p><br>
             <b>Planning</b>
                 <p>The first step of the project, after selecting which brief we were going to follow, was to create an outline of the final product as soon as possible, in order to allow our programmers and artists to begin their jobs early on. The reality of this might not be so glamorous, but the idea was that the more time they're given during the project, chances are the better it would come out.</p><br>
                 <p>I thought an asset list and feature list would be applicable for the project, as it allowed me to clearly lay out and categorise all the required and optional additions. I knew this would be a useful piece of the game design document, as I had both worked as an artist and coder in previous TDEMO projects, as well as talking to other students in teams with plans that weren’t as robust as those set out by our design team. It could be argued that this contributed to the over-scoping that the team dealt with throughout the process, although I would counter with that we were tasked with creating a game based on a relatively robust blueprint, and the objective I was setting out was to attempt to conform to that firstly, and the feasibility took a back seat - better to plan more than is possible than to reach the end of your plan and have a dull, flat game.</p><br>
@@ -173,7 +173,7 @@ const blogPosts = {
                 <p>I am quite pleased with my personal performance in team Twinkie Finger 2, even if the final game was not up to the standards that I would have wished it to be. The aforementioned time related issues mostly stemmed from the issues with one of our coders not responding to any messages, so the other coder was reluctant to start the project without his input, as no one in the group was sure as to what work he had already completed, and later the lead coder wasn’t able to use a computer properly due to an injury restricting his arm. The work from the absent coder ended up being only a small amount, but that fact was only revealed with a minimal amount of time left before the deadline. Once this happened, the source control was set up and in-engine work began - in my opinion - way too close to the end. This meant that the ability of myself and the team to QA test and implement advanced features, such as dynamic aiming and the switching of elemental powers, which was originally an integral part of the game, became severely deprecated. This resulted in my ability as a designer being hindered from an outside perspective due to the issues related to the code of the game.</p><br>
                 <p>The design document is well detailed, and I feel as if my work in Unity is about as good as it could have been considering the severe constraints. Although, more work could certainly have gone into the marketing and research sections, which were left without much information, as neither of the designers were producers. My work on the sounds was good, and I think they are "readable" in that each sound is relatively accurate as to what it is attempting to portray. Lastly, the final video was alright - but yet again put together on too small of a time frame.</p><br>
             <b>Conclusion</b>
-                <p>In conclusion, I believe that this project was a moderate success, most of the elements created outside of the game’s unity project (the design and art) came out to a high standard, yet within the engine the quality suffered due to a lack of time and expertise (for example, when scaling objects they no longer fit a tight visual theme, as the pixels were seemingly missized). If this project were to be completed again, time management would absolutely be the key area for improvement, as most of the pitfalls stemmed from this. I personally found that my skills in design have greatly improved since participating in this project, especially in the planning phase, consolidating what I already know and allowing me to communicate with a team more effectively due to my increased experiences within each field.</p><br>
+                <p>In conclusion, I believe that this project was a moderate success, most of the elements created outside of the game’s Unity project (the design and art) came out to a high standard, yet within the engine the quality suffered due to a lack of time and expertise (for example, when scaling objects they no longer fit a tight visual theme, as the pixels were seemingly missized). If this project were to be completed again, time management would absolutely be the key area for improvement, as most of the pitfalls stemmed from this. I personally found that my skills in design have greatly improved since participating in this project, especially in the planning phase, consolidating what I already know and allowing me to communicate with a team more effectively due to my increased experiences within each field.</p><br>
             <b>Appendix/Bibliography</b>
                 <p>Ruuska, E. (2015). QUALITY ASSURANCE TESTING IN VIDEO GAMES. Thesus, 62.</p>
                 <p>Stephen Lavelle. (2021). BFXR (1.5.1) [Windows, macOS]. https://www.bfxr.net/</p>
@@ -256,7 +256,7 @@ const blogPosts = {
     cedriksCrown: {
         title: "Cedrik's Crown - Iterating Game Designs",
         date: "Febuary 12, 2023",
-        summary: "A recreation of Unity's inbuilt perlin noise maths function, alongside matrices and quaternions",
+        summary: "A board game created with a group of 5, where I acted as the lead designer, and carried out extensive testing and iteration",
         thumbnail: "images/blog/cedriksCrown-thumbnail.jpg",
         content: `
         <div class="quote">
@@ -283,10 +283,10 @@ const blogPosts = {
         `,
         tldr: `
         <b>About</b>
-        <p>Cedrik’s Crown is a board game created with a group of 5, where I acted as the lead designer, and carried out extensive testing and iteration</p><br>
+        <p>Cedrik’s Crown is a board game created with a group of 5, where I acted as the lead designer, and carried out extensive iteration and testing</p><br>
         <b>Responsibilities</b>
             <ul>
-                <li>Produce and iterate design documents - there were 8 created in total as well as a final rulebook</li>
+                <li>Produce and iterate design documents - there were 8 created in total, as well as a final rulebook</li>
                 <li>Collaborate with the rest of the team to develop concepts and elements of the game</li>
                 <li>Balance all systems of the game</li>
                 <li>QA test the entire experience across multiple iterations</li>
@@ -309,10 +309,10 @@ const blogPosts = {
     perlinNoise: {
         title: "Procedural Terrain Generation - Maths for Games",
         date: "May 25, 2023",
-        summary: "A recreation of Unity's inbuilt perlin noise maths function, alongside matrices and quaternions",
+        summary: "A recreation of Unity's inbuilt perlin noise maths function, using vectors, matrices, and quaternions",
         thumbnail: "images/blog/perlinNoise-thumbnail.jpg",
         content: `
-        <p>For my final Mathematical Elements for Games (MEGA), I created a program that rewrote the inbuilt Unity Mathf.PerlinNoise function to create a pseudo-randomly generated terrain, that then had a coloured map projected onto it to appear to have lakes, grassy areas, and mountains. It used vectors extensively, and matrices were also used to display a small billboarded exclamation point at the highest point on the terrain.</p><br>
+        <p>For my final Mathematical Elements for Games (MEGA), I created a program that rewrote the inbuilt Unity Mathf.PerlinNoise function to create pseudo-randomly generated terrain, that then had a coloured map projected onto it to appear to have lakes, grassy areas, and mountains. It used vectors extensively, and matrices were also used to display a small billboarded exclamation point at the highest point on the terrain.</p><br>
         <p>The implementation was created with the aim of creating customisable terrain that could be controlled by a seed system. This means that the same terrain could be generated when the same parameters were passed to the function:</p><br>
         <img src='images/blog/perlinNoise-playing.jpg' alt='Perlin noise on a 2D plane'><br>
 
@@ -405,7 +405,7 @@ const blogPosts = {
         `,
         tldr: `
         <b>About</b>
-        <p>Press space is a satirical branching narrative game created as a solo project. I handled all elements of design, implementation and asset usage, and audio</p><br>
+        <p>Press space is a satirical branching narrative game created as a solo project. I handled all elements of design, implementation, asset usage, and audio</p><br>
         <b>Responsibilities</b>
             <ul>
                 <li>Full stack design and documentation - creating a design document, flow charts and visual aids so that future designers could take on the project</li>
@@ -435,11 +435,11 @@ const blogPosts = {
         summary: "I exhibited Press Space at the Portsmouth University Grad Show to a great reception, and met developers from Larian Studios",
         thumbnail: "images/blog/gradShow-thumbnail.jpg",
         content: `
-        <p>After being <s>called a bum</s> asked nicely by Matt (my lecturer for the Design Games module) to submit Press Space to the grad show, I sent in my application, which was accepted after just a couple of days. I had to quickly polish up an executable for the game so that I could upload it to one of the arcade-style cabinet machines that were at the event (which wouldn’t have internet access during the event - so it was important that I got it right).</p><br>
+        <p>After being <s>called a bum</s> asked nicely by Matt (my lecturer for the Design Games module) to submit Press Space to the grad show, I sent in my application, which was accepted after just a couple of days. I had to quickly polish up an executable for the game so that I could upload it to one of the arcade-style cabinet machines that were at the event (which wouldn’t have internet access - so it was important that I got the build right).</p><br>
         <img src='images/blog/gradShow-conversation.jpg' alt='An inspirational conversation'><br>
         <p>I rushed to improve some of the UX from the original, abstract (pretentious) theming, and make the game a little more accessible to new players, and especially those without formal experience with games. The addition of the ability to skip around chapters was incredibly useful, due to some of my observations during the day (that the first chapter of the game was NOT engaging and desperately needed a reworking), whilst the second and third chapters were pretty interesting, so I could just skip people to that point without losing much in terms of gameplay and saving them 5 minutes of tedium.</p><br>
         <p>The show was relatively busy at the peak times, with a near constant stream of people coming and checking out all the exhibits. I spent the entire time right next to my machine just in case players needed help in navigating the admittedly difficult game, or if any industry professionals visited.</p><br>
-        <p>It paid off though, I was lucky enough to be approached by a small group of developers from Larian Studios (Baldur’s Gate III), who wanted to know more about the game I was exhibiting at the time - Press Space. I spoke about the ideation and process when creating the game and got on very well with all of them. Leah, the Lead Cinematic Animator, said I should get in touch, and handed me a business card (see the next blog post for this).</p><br>
+        <p>It paid off though, I was lucky enough to be approached by a small group of developers from Larian Studios (Baldur’s Gate III), who wanted to know more about the game I was exhibiting at the time. I spoke about the ideation and process when creating the game and got on very well with all of them. Leah, the Lead Cinematic Animator, said I should get in touch, and handed me a business card (see the next blog post for this).</p><br>
         <img src='images/blog/gradShow-larian.jpg' alt='Larian Studios logo'><br>
         <p>Other than that, I met a number of interesting people throughout the day, and it was great to see others playing and enjoying something that I made. If I take press space forward, I should have some great feedback to work off of when altering the first chapter.</p><br>
         <img src='images/blog/gradShow-machines.jpg' alt='Machines at the grad show'><br>
@@ -456,7 +456,7 @@ const blogPosts = {
         <b>Lessons</b>
             <ul>
                 <li>Presenting my own work to the public in a formalised setting</li>
-                <li>Guiding newer players through the game, and later improvising a solution to their confusion</li>
+                <li>Guiding newer players through the game, and later improvising solutions to their confusion</li>
                 <li>Speaking to industry professionals from Larian, who invited me to the Guildford studio as a result</li>
             </ul>
         `,
@@ -468,7 +468,7 @@ const blogPosts = {
         summary: "I was invited to visit Larian Studios and speak to a Senior Systems Designer on the back of the Grad Show",
         thumbnail: "images/blog/visitingLarian-thumbnail.jpg",
         content: `
-        <p>During the Grad showcase event at the university, I was approached by some developers from Larian, and I ended up getting in contact with one, Leah, after the show. After talking for a little, I was invited to visit the studio in Guildford in August, just after the release of Baldur’s Gate 3.</p><br>
+        <p>During the Grad showcase event at the university, I was approached by some developers from Larian, and I ended up getting in contact with one of them, Leah, after the show. After talking for a little, I was invited to visit the studio in Guildford in August, just after the release of Baldur’s Gate 3.</p><br>
         <p>Truthfully, I hadn’t heard a great deal about BG3 before the Grad Show (other than briefly viewing the steam page before thinking it wasn’t my genre), but picked the game up and played around 25 hours between the release and my visit, where I realised what a masterpiece the game actually was. I was almost disappointed in myself that I couldn’t squeeze in any more playtime - if I went back now I would certainly have a plethora of questions!</p><br>
         <p>When I arrived I had to sign an NDA so, unfortunately, I cannot disclose exactly what happened during the conversations I had. However, I will say that talking to Ross, a Senior Systems designer, altered my view on the discipline and was incredibly informative and has changed my outlook on where my specialisation goals lie going forwards in design.</p><br>
         <p>I am super thankful for the team at the studio for bringing me in and letting me see the studio first hand. The developers that I met were all wonderful people and had such interesting conversations with me, it changed the course of my career and I wish the team the best of luck with everything going forward!</p><br>
@@ -497,19 +497,19 @@ const blogPosts = {
         summary: "I created a prototype capable of simulating thousands of museum visitors in Unity C#, using pathfinding, utility theory, and perception systems alongside methods of optimisation",
         thumbnail: "images/blog/aiPrototype-thumbnail.jpg",
         content: `
-        <p>During the first term of my final year, we had an AI for Games module, where we had to create a number of autonomous agents within a system. I chose to combine the work with the prototyping phase from the full year group project, where I would be designing and implementing the AI for a management game. We hadn’t yet completed the design phase, so they began as a generic NPC that would enter, wander, and leave.</p><br>
-        <p>As the group project neared the first hand-in, we settled on the game being a museum management game - to be titled “Curation”. Knowing this, I developed the design further, adding the ‘visit’, ‘donate’, and ‘panic’ behaviours to adapt it further to the project it was intended for.</p><br>
+        <p>During the first term of my final year, we had an AI for Games module, where we had to create a system of autonomous agents. I chose to combine the work with the prototyping phase from the year-long group project, where I would be designing and implementing the AI for a management game. We hadn’t yet completed the design phase, so they began as a generic NPC that would enter, wander, and leave.</p><br>
+        <p>As the group project neared the first hand-in, we settled on the it being a museum management game - to be titled “Curation”. Knowing this, I developed the design further, adding the ‘visit’, ‘donate’, and ‘panic’ behaviours to adapt agents further to the project it was intended for.</p><br>
         
         <p><b>Grid based world</b><br>
             <p>The grid was the backbone of the placement of ‘artefacts’ by the user and the walls placed by the code (coding wall placement was beyond the scope of the project). When placing something, it would generate ‘interaction points’ which were the actual positions visited by the NPCs</p><br>
         <p><b>Dynamic Room Detection</b><br>
-            <p>Used a flood fill algorithm to detect rooms on wall placement/deletion. When detected, they were indexed in an array which would update itself when a room was removed.</p><br>
+            <p>Used a flood fill algorithm to detect rooms on wall placement/deletion. When detected, they were indexed in an array which would update itself when a room was removed</p><br>
             <img src='images/blog/aiPrototype-rooms.jpg' alt='A visualisation of room detection'><br>
         <p><b>A* Pathfinding Algorithm</b><br>
-            <p>Ran A* pathfinding on the grid to determine if a path between 2 positions was possible. I thought that the inbuilt pathfinding was bugged, as it would return true even if a path was not possible, but I found out after the project was done that I was just missing an argument to exclude partial paths. Even though it was redundant, writing an A* implementation was good practice for future projects</p><br>
+            <p>The program ran A* pathfinding on the grid to determine if a path between 2 positions was possible. I thought that the inbuilt pathfinding was bugged, as it would return true even if a path was not possible, but I found out after the project was done that I was just missing an argument to exclude partial paths. Even though it was redundant, writing an A* implementation was good practice for future projects</p><br>
             <img src='images/blog/aiPrototype-pathfinding.jpg' alt='A visualisation of the pathfinding'><br>
         <p><b>Navmesh Integration</b><br>
-            <p>Used the inbuilt navmesh component to dynamically generate a navmesh on the ground around the objects placed by the user and to calculate NPCs paths when they were deemed possible by the A* pathfinding. This generated a number of points along the path, which were then followed by the NPC to preserve resources over the .SetDestination function of the navMeshAgent, which updates whenever the navmesh changes and can avoid other agents, but is incredibly intensive</p><br>
+            <p>Used the inbuilt navmesh component to dynamically generate a navmesh on the ground around the objects placed by the user and to calculate NPCs paths when they were deemed possible by the A* pathfinding. This generated a number of points along the path, which were then followed by the NPC to preserve resources over the .SetDestination function of the navMeshAgent, which updates dynamically whenever the navmesh changes and can avoid other agents, but is incredibly resource intensive</p><br>
             <img src='images/blog/aiPrototype-navmesh.jpg' alt='A visualisation of the pathfinding'><br>
         <p><b>NPC Perception</b><br>
             <p>Implemented a sensor-based perception system using raycasts to simulate NPCs' field of view, updating a number of times a second (but not each frame for performance’s sake, to have a number of agents working at once)
@@ -546,7 +546,7 @@ const blogPosts = {
         `,
         tldr: `
         <b>About</b>
-        <p>Creating a prototype for what would later become Creation, using Finite State Machines to simulate agents and encourage emergent behaviours. Also using flood fill, A* pathfinding, Navmesh, Perception systems, Utility theory and optimisation techniques</p><br>
+        <p>I created a prototype for what would later become Curation, using Finite State Machines to simulate agents and encourage emergent behaviours. Also using flood fill, A* pathfinding, navmesh, perception systems, utility theory and optimisation techniques</p><br>
         <b>Responsibilities</b>
             <ul>
                 <li>Allowing users to alter the environment the NPCs were in</li>
@@ -578,10 +578,10 @@ const blogPosts = {
         <div class="quote"> 
             <p>Verticality within 3 Dimensional games is a massively underrepresented topic in both academia and design literature. This study targets existing academia, knowledge from industry practitioners and utilises practice-lead research to perform an integrative literature review before constructing a framework for the implementation of verticality within a 3D game. Its effectiveness is then assessed in a practical context through the creation of a design concept document for the game Neon Prison and a prototype of a single level. The outcome is the establishment of the BATH framework (Balance, Affordances, Tutorialisation, Holism), which offers designers a template for the consideration of verticality within their design and academics a lens through which to view verticality. It lastly develops an understanding of contextual importance when utilising the model, as differing intended player experiences alter the ways in which the model should be applied.</p><br>
         </div>
-        <p>The project was completed between November and May, with the majority of the work being undertaken throughout March, April and early May. It was an incredibly taxing project to complete, as the study section was heavily reliant on information that was considered even by my lecturers to be “tacit knowledge”, thus finding academic sources was incredibly difficult. Because of this limitation, my original draft had a literature review that was 9000 words, in an attempt to include as much information as possible. Obviously, a literature review towards the upper bound of the recommended word count for the entire paper was unacceptable, so a lot of the irrelevant content was cut and replaced with more of a focus on my case studies, resulting in an 8000 word long literature review in the final version that was much more relevant.</p><br>
-        <p>In the second part of the project, I went about creating a game design that would evidence the findings from the literature review - coming up with the game “Neon Prison”, a cyberpunk stealth-action game set in a fictional city-scraper, which allowed me to display the elements of verticality investigated in the first part. I wrote a partial concept document, omitting content irrelevant to the verticality.</p><br>
+        <p>The project was completed between November and April, with the majority of the work being undertaken throughout March, early April. It was an incredibly taxing project to complete, as the study section was heavily reliant on information that was considered even by my lecturers to be “tacit knowledge”, thus finding academic sources was incredibly difficult. Because of this limitation, my original draft had a literature review that was 9000 words, in an attempt to include as much information as possible. Obviously, a literature review towards the upper bound of the recommended word count for the entire paper was unacceptable, so a lot of the irrelevant content was cut and replaced with more of a focus on my case studies, resulting in an 8000 word long literature review in the final version that was much more relevant.</p><br>
+        <p>In the second part of the project, I went about creating a game design that would evidence the findings from the literature review - coming up with the game “Neon Prison”, a cyberpunk stealth-action game set in a fictional city-scraper, which allowed me to display the elements of verticality investigated in the first section. I wrote a partial concept document, omitting content irrelevant to the verticality.</p><br>
         <img src='images/blog/dissertation-greybox.jpg' alt='Blockout of the level'><br>
-        <p>Once defined, it was time to go into the engine to implement the features. The first step was to create a viable movement system; I knew my game was going to be heavily reliant on it so it was important to get right. I started with a custom implementation, getting the basics down relatively quickly, but burned myself out trying to get the more advanced movement working. After trying and failing to push through, I decided to create a fresh version of the project with a pre-existing movement controller, and I ended up using one created by the youtuber <i>Dave / GameDevelopment</i> which had most of the mechanics that I wanted, although I did write some custom ones such as the wire clipping (similar to a zipline). The introduction level design was created with a blockout, and work was started on another before it was abandoned for the sake of time at the advice of Matt.</p><br>
+        <p>Once defined, it was time to go into the engine to implement the features. The first step was to create a viable movement system; I knew my game was going to be heavily reliant on it, so it was important to get right. I started with a custom implementation, getting the basics down relatively quickly, but burned myself out trying to get the more advanced movement working. After trying and failing to push through, I decided to create a fresh version of the project with a pre-existing movement controller, and I ended up using one created by the youtuber <i>Dave / GameDevelopment</i> which had most of the mechanics that I wanted, although I did write some custom ones such as the wire clipping (similar to a zipline). The introduction level design was created with a blockout, and work was started on another before it was abandoned for the sake of time at the advice of Matt.</p><br>
         <video width="560" height="315" controls>
             <source src="images/blog/dissertation-wire.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -622,11 +622,11 @@ const blogPosts = {
                 <li>Academic rigour for sources</li>
                 <li>Researching a massively underrepresented and under researched facet of game design</li>
                 <li>Presenting the findings in a cohesive way</li>
-                <li>Creating an actual game design and playable demo</li>
+                <li>Creating a tangible game design and playable demo</li>
             </ul><br>
         <b>Lessons</b>
             <ul>
-                <li>Resource allocation - far too long was spent researching as compared to prototyping</li>
+                <li>Resource allocation - far too long was spent researching comparatively to prototyping</li>
                 <li>Cutting excess content</li>
                 <li>Adapting and building on existing systems for my own use</li>
             </ul>
@@ -646,9 +646,9 @@ const blogPosts = {
         <p>For the Psychological Theory for Games module (a design-based module), I decided to rework the opening section (Chapter 1) of Press Space. The implementation section of the assessment was relatively small, so it fit quite well with the scope of the original game. I decided to reapproach the original with a mindset of cutting down the amount of ‘runway’ leading up to the more interesting section of the game, chapter 2. I ended up scrapping some of the original endings, since they were far less engaging than I would have liked, and felt more like an afterthought.</p><br>
 
         <p><b>Old:</b></p><br>
-            <img src='images/blog/pressSpaceRedux-old.jpg' alt='Old Chapter 1 flow'><br>
+            <img src='images/blog/pressSpaceRedux-old.jpg' alt='Old Chapter 1 flow'><br><br>
         <p><b>New:</b></p><br>
-            <img src='images/blog/pressSpaceRedux-new.jpg' alt='New Chapter 1 flow'><br>
+            <img src='images/blog/pressSpaceRedux-new.jpg' alt='New Chapter 1 flow'><br><br>
         
         <p>The biggest change was moving the narrator's introduction to right at the beginning of the game in order to guide players more than in the original version. Navigating the original section before his introduction seemed to be the largest roadblock for new players, as evidenced by players at the Grad Show last year. I was careful to try and preserve the theming and general progression of the game, with the more abstract theming of the first section and the lack of visual fidelity - which did helpfully speed up development time!</p><br>
         <p>The project (alongside 2 essays) received a 74. Pete, my lecturer, made this comment on the implementation section:</p><br>
@@ -674,7 +674,7 @@ const blogPosts = {
             </ul><br>
         <b>Lessons</b>
             <ul>
-                <li>Working on an existing codebase, that I had to remind myself how it functioned</li>
+                <li>Working on a legacy codebase, one that I had to remind myself if its functionality</li>
                 <li>Designing with player psychology in mind</li>
                 <li>Using existing feedback (from the Grad Show) to iterate a design</li>
                 <li>Identifying areas of weakness within an existing design</li>
@@ -694,24 +694,24 @@ const blogPosts = {
         summary: "Curation is a museum management game created alongside Frontier Developments! It is nearing a steam release",
         thumbnail: "images/blog/curation-thumbnail.jpg",
         content: `
-        <p>Curation is the largest project by far that I have worked on over the course of university. It was for the year-long “Real-time Interactive Group Project” (RIGPR), where students work with a client to create a game or experience. Curation is a museum management game created alongside Frontier Developments PLC, with correspondence throughout the year helping to shape the direction of the game.</p><br>
+        <p>Curation is by far the largest project that I have worked on over the course of university. It was for the year-long “Real-time Interactive Group Project” (RIGPR), where students work with a client to create a game or experience. Curation is a museum management game created alongside Frontier Developments PLC, with correspondence throughout the year helping to shape the direction of the game.</p><br>
         <img src='images/blog/curation-museum.jpg' alt='A typical museum'><br>
-        <p>The group was selected using the results by previous year’s assessments to determine group and project. There were 8 or so projects total, but only 2 were working alongside studios - Frontier and Rebellion. Naturally, everyone gravitated towards them, and I was lucky enough to be selected by Ted (the lecturer) to work alongside some of the most talented students on the course on the project with the highest expectations - the previous year’s project, Malltopia, won the TIGA education award for Student Game of the Year (and blew me away when I played at the Grad Show 2023).</p><br>
+        <p>The group was selected using the results by previous year’s assessments to determine group and project. There were 8 or so projects total, but only 2 were working alongside studios - Frontier and Rebellion. Naturally, everyone gravitated towards them, and I was lucky enough to be selected by Ted (the lecturer) to work alongside some of the most talented students on the course on the project with the highest expectations - the previous year’s project, Malltopia, won the TIGA education award for Student Game of the Year (and blew me away when I played at the Grad Show in 2023).</p><br>
         <img src='images/blog/curation-malltopia.jpg' alt='Malltopia's award'><br>
-        <p>I worked alongside 8 others (6 devs and 2 producers) for a split of 3 designers / 4 coders / 3 artists (all of the designers coded as well). After a number of weeks of deliberation, we decided on the museum theme. During the pre-christmas period, the devs were very intent on beginning prototyping as early as possible, whilst the producers held back for fear of burnout or undirected work. As a result, we had a long pre-production period involving the creation of asset lists and administrative tasks, such as starting jira and confluence pages.</p><br>
+        <p>I worked alongside 8 others (6 devs and 2 producers) for a split of 3 designers / 4 coders / 3 artists (all of the designers contributed to the codebase as well). After a number of weeks of deliberation, we decided on the museum theme. During the pre-christmas period, the devs were very intent on beginning prototyping as early as possible, whilst the producers held back for fear of burnout or undirected work. As a result, we had a long pre-production period involving the creation of asset lists and administrative tasks, such as starting jira and confluence pages.</p><br>
         <img src='images/blog/curation-feature.jpg' alt='Feature list'><br>
         <p>The other designers and myself created a Game Design Document for the game during this period, developing the pillars, loops, progression, systems, and technical elements before translating that into a pitch deck for the game that we presented to the client in December 2023.</p><br>
         <p>As I was so eager to get started, I decided to combine the work created for my AI module with the work created for the RIGPR module, so based the work for that module on the intended behaviour of the NPCs visiting the museum (see the AI blog post). This meant that I had a lot of time, resulting in a decently advanced prototype for the NPCs before production began in January. A number of other prototypes were developed during this time, namely for the camera and a few basic placement systems.</p><br>
         <img src='images/blog/curation-proto.jpg' alt='The NPC prototype'><br>
-        <p>From the experience of creating the prototype, I knew that I would have to overhaul the technical design of the system, as whilst it worked for the smaller scope of the prototype, it was nowhere near as scalable as I would have liked for the final project. I rewrote every bit of code as compared to the prototype, moving a modular behaviour tree based implementation of the AI behaviours. Here are some code snippets from that implementation:</p><br>
+        <p>From the experience of creating the prototype, I knew that I would have to overhaul the technical design of the system, as whilst it worked for the smaller scope of the prototype, it was nowhere near as scalable as I would have liked for the final project. I rewrote every bit of code as compared to the prototype, moving to a modular behaviour tree based implementation of the AI behaviours. Here are some code snippets from that implementation:</p><br>
         <img src='images/blog/curation-desire.jpg' alt='The NPC prototype'><br>
         <img src='images/blog/curation-node.jpg' alt='The NPC prototype'><br>
-        <p>This was undoubtedly the hardest part of the project for me, as I was writing a lot of back end code and behaviours with no real way to test them as systems were not yet connected together. This was around the midpoint of the project, and early in production. I eventually managed to port over the code from the prototype, and could begin testing with agents, which made the process from here much easier.</p><br>
+        <p>This was undoubtedly the hardest part of the project for me, as I was writing a lot of back end code and behaviours with no real way to test them as systems were not yet connected together. This was around the midpoint of the project, and early in production. I eventually managed to port over the functionality from the prototype, and could begin testing with agents, which made the process from that point onwards much easier.</p><br>
         <p>The idea of Frame, Tick, and Turn updates still persisted as they had proved themselves to be incredibly useful for the optimisation of agents, so they persisted through from the prototype, as well as manually handling pathing and recalculation outside of the inbuilt NavMeshAgent. The latter was simplified over the prototype, using the agent class to calculate a path a single time and store it, following along unless there was an update in the navmesh. All things considered, including models and visuals, it allowed up to 1000 NPCs to be simulated at the same time at above 40FPS.</p><br>
         <video width="560" height="315" controls>
             <source src="images/blog/curation-stress.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video><br>
         <p>I also designed and programmed a number of cosmetic and game feel systems:</p><br>
 
         <p>NPC cosmetics, where each NPC had different skins and accessories which made the game a lot more visually appealing</p><br>
@@ -720,12 +720,12 @@ const blogPosts = {
         <video width="560" height="315" controls>
             <source src="images/blog/curation-rain.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video><br>
         <p>A day/night system, changing the lighting of the scene and helping players have a grasp on the passage of time</p><br>
         <video width="560" height="315" controls>
             <source src="images/blog/curation-days.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video><br>
         <p>A rating system, which scored players up to 5 starts, affecting the amount of NPCs that come to visit the museum. There are 4 stars available for NPC happiness, and 2 available for the diversity of artefacts</p><br>
         <img src='images/blog/curation-rating.jpg' alt='Star system'><br>
         <p>Hints, which appear when a player completes certain in-game actions to trigger them, such as placing a room triggering the hint to place a door</p><br>
@@ -767,7 +767,7 @@ const blogPosts = {
             <ul>
                 <li>Design documentation and constant collaboration throughout the whole process</li>
                 <li>Designing and implementing AI agents</li>
-                <li>Collaborating on pitch deck materials to the client</li>
+                <li>Collaborating on pitch deck materials to present to the client</li>
                 <li>QA testing the product, as well as enlisting outside playtesters</li>
             </ul><br>
         <b>Lessons</b>
@@ -796,11 +796,11 @@ const blogPosts = {
         summary: "My team and I were invited to the 2024 Barclays Game Frenzy event at their headquaters in Canary Wharf, London",
         thumbnail: "images/blog/barclays-thumbnail.jpg",
         content: `
-        <p>After the success of final year group project Curation, the university encouraged the team to submit the game to be shown at the Barclays Game Frenzy taking place at the Barclays headquarters in Canary Wharf in London. After applying, we were selected alongside two other projects to showcase in the university section.</p><br>
+        <p>After the success of final year group project Curation, the university encouraged the team to submit the game to be showcased at the Barclays Game Frenzy taking place at the Barclays headquarters in Canary Wharf in London. After applying, we were selected alongside two other projects to showcase in the university section.</p><br>
         <p>I got a lift there with the producers (thanks Gabe!). Once we arrived, we set up at the table and began to socialise with the other attendees. Our room was solely uni students, so it was interesting to learn about the games courses at other universities that I considered when applying for university way back in 2021.</p><br>
         <p>After socialising with the other students, it was time to examine the rest of the event - there were a number of rooms full of games-adjacent companies to talk to, and I spent the majority of my time in the indie dev room. I had some great conversations with solo developers, and met people applying for the Transfuser game grant whose game I already knew of thanks to acting as a consultant to one of their rival games. I came away with some business cards and a lot of newfound knowledge!</p><br>
         <img src='images/blog/barclays-me.jpg' alt='Me at the event'><br>
-        <p>Overall, the day was a great experience of networking with others in industry and getting insight on entering the industry!</p><br>
+        <p>Overall, the day was a great experience of networking with others and getting insight on entering the industry!</p><br>
         `,
         tldr: `
         <b>About</b>
@@ -827,8 +827,8 @@ const blogPosts = {
         <p>Graduating with a first was no easy feat. Receiving an average mark of 73 in first year, an 81 in second year (the highest average of any student that year) and a 77 in my third year for a 4.16 GPA, I am incredibly proud of these results as an expression of my attitude and effort that I put into my work, both on and off the metaphorical clock.</p><br>
         <p>The ceremony itself was a blur - but I know I had a good time. The day started with a 2 hour drive down to Portsmouth, before racing to get my cap and gown with enough time to get to the ceremony. After sitting in the Guildhall’s main floor for an hour, following the names being called and counting down to my own, we were ushered out to a holding area for all the new graduates, and sent onto stage one by one in a conveyor belt of new graduates.</p><br>
         <img src='images/blog/graduation-me.jpg' width=50% alt='Me at graduation'><br>
-        <p>As my name was called - the final one on my course thanks to my surname - I briskly walked across the stage to the polite applause of hundreds of parents eagerly waiting for their own children to pass into the post-student life (as well as a few hollers from my friends of course). After the ceremony and photos were complete, I had a final night out with a number of my coursemates who I had become so fond of over the preceding three years as we shared memories of our times on the course over drinks.</p><br>
-        <p>I am extremely grateful for my time at Portsmouth University. My journey began when a college friend of mine offhandedly mentioned a video game course at university, and has ended with a first class degree in a subject that I love. I would like to extend my thanks to the university staff, who have been nothing but supportive during my time on the course, my friends, who I had my back whenever I needed them, and my parents for their support throughout my journey. I’m excited to see where this next chapter of my life takes me; but into industry is definitely the goal!</p><br>
+        <p>As my name was called - the final one on my course, thanks to my surname - I briskly walked across the stage to the polite applause of hundreds of parents eagerly waiting for their own children to pass into the post-student life (as well as a few hollers from my friends of course). After the ceremony and photos were complete, I had a final night out with a number of my coursemates who I had become good friends with over the preceding three years as we shared memories of our times on the course over drinks.</p><br>
+        <p>I am extremely grateful for my time at Portsmouth University. My journey began when a college friend of mine offhandedly mentioned a video game course at university, and has ended with a first class degree in a subject that I love. I would like to extend my thanks to the university staff, who have been nothing but supportive during my time on the course, my friends, who had my back whenever I needed them, and my parents for their support throughout my journey. I’m excited to see where this next chapter of my life takes me; but into industry is definitely the goal!</p><br>
         `,
         tldr: `
         <b>About</b>
@@ -840,7 +840,7 @@ const blogPosts = {
             </ul><br>
         <b>Lessons</b>
             <ul>
-                <li>It was great to see all of the friends I had made throughout the course! I also needed to extend a thank you to all my wonderful lectures</li>
+                <li>It was great to see all of the friends I had made throughout the course! I also needed to extend a thank you to all of my wonderful lecturers, my friends, and my parents</li>
             </ul>
         `,
         type: 'none'
@@ -851,9 +851,9 @@ const blogPosts = {
         summary: "I learned HTML, CSS and JavaScript in order to create this website!",
         thumbnail: "images/blog/website-thumbnail.jpg",
         content: `
-        <p>As my first post-graduate project, I wanted to teach myself a new valuable skill in my free time, opting to learn how to create a website from scratch. The natural project would be to create a portfolio of my development experience - which you are looking at now!</p><br>
+        <p>As my first post-graduate project, I wanted to teach myself a valuable new skill in my free time, opting to learn how to create a website from scratch. The natural project would be to create a portfolio of my development experience - which you are looking at now!</p><br>
         <p>I already had a portfolio, but it was hideously outdated and built very quickly for an assessment in my first year - naturally not to a quality I can say I would be happy to show anyone in industry. I decided against wordpress and similar website builders purely because I wanted to learn web development by myself without a reliance on any third parties.</p><br>
-        <p>I began by following a number of tutorials to learn the structure of both HTML, allowing me to quickly create a basic demo site featuring a number of features - a task that was surprisingly simple. Next was CSS, which showed itself to be a relatively simple but more repetitive task than writing HTML. After creating a number of tests using the style sheet language, I decided that it would greatly increase the speed at which I could work if I employed artificial intelligence to deal with the tedium.</p><br>
+        <p>I began by following a number of tutorials to learn the structure of HTML, allowing me to quickly create a basic demo site featuring a number of features - a task that was surprisingly simple. Next was CSS, which showed itself to be a relatively simple but more repetitive task than writing HTML. After creating a number of tests using the style sheet language, I decided that it would greatly increase the speed at which I could work if I employed artificial intelligence to deal with the tedium.</p><br>
         <img src='images/blog/website-try.jpg' alt='The first website attempt'><br>
         <p>So using AI to help me with the foundation of the site, I tweaked, reworked, and built on until I was content with the results. At the time of writing, the site is mostly complete and just in need of polishing before it goes live, but if you are seeing this it means that I deemed it worthy to publish!</p><br>
         `,
@@ -864,11 +864,12 @@ const blogPosts = {
             <ul>
                 <li>Create a functioning website</li>
                 <li>Work on the UI/X of said website</li>
-                <li>Test the website to ensure no vulnerabilities</li>
+                <li>Test the website to ensure minimal bugs and no vulnerabilities</li>
             </ul><br>
         <b>Lessons</b>
             <ul>
                 <li>Full stack web development</li>
+                <li>Utilising Artificial Intelligence to speed up workflows</li>
             </ul>
         `,
         type: 'most-recent'
@@ -1143,7 +1144,7 @@ const projects = [
         date: "2021-11-30",
         shortDescription: "A large group project aimed at replicating Starfox.",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Effective remote communication with a team of 12</li>
             <li>Level and enemy design in documentation and Unity Engine</li>
@@ -1165,11 +1166,11 @@ const projects = [
         date: "2022-04-30",
         shortDescription: "For my 3D modelling module, I used 3DS max to create a model of my PC",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
-            <li>Created industry-standard 3D model using 3DS Max</li>
+            <li>Created an industry-standard 3D model using 3DS Max</li>
             <li>Produced reference photos and a rendered video</li>
-            <li>Identified and resolved model issues (unnecessary polys)</li>
+            <li>Identified and resolved model issues (unnecessary poly usage)</li>
             <li>Gained experience of a modelling pipeline</li>
         </ul>
         `,
@@ -1185,7 +1186,7 @@ const projects = [
         date: "2022-05-10",
         shortDescription: "I created a game based on a random maze generator in C++",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Implemented maze generation using recursive backtracking in C++</li>
             <li>Optimised an algorithm I have previously implemented</li>
@@ -1206,7 +1207,7 @@ const projects = [
         date: "2022-12-30",
         shortDescription: "Goldrush was created as part of the Gameplay Programming module. It is a 2D shoot-em-up created in the Unity engine",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Designed and implemented features like level customisation, animations, and enemy AI</li>
             <li>Developed a complete 2D game solo in Unity Engine</li>
@@ -1227,7 +1228,7 @@ const projects = [
         date: "2023-02-12",
         shortDescription: "Cedrik’s Crown is a board game created with a group of 5, where I acted as the lead designer, and carried out extensive testing and iteration",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Lead designer in a team of 5, performing testing and iteration</li>
             <li>Produced and iterated multiple design documents</li>
@@ -1248,7 +1249,7 @@ const projects = [
         date: "2023-05-25",
         shortDescription: "I created a terrain generator using perlin noise, with lots of configuration options, manipulated meshes/textures, and dealt with mathematical concepts like vectors, matrices, and quaternions",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Developed terrain generator with Perlin noise in Unity</li>
             <li>Used advanced mathematical concepts (Vectors, Matrices, Quaternions)</li>
@@ -1267,9 +1268,9 @@ const projects = [
         thumbnail: "images/projects/pressSpace-thumbnail.jpg",
         video: "images/projects/pressSpace-video.mp4",
         date: "2023-06-30",
-        shortDescription: "Press space is a satirical branching narrative game created as a solo project. I handled all elements of design, implementation and asset usage, and audio",
+        shortDescription: "Press space is a satirical branching narrative game created as a solo project. I handled all elements of design, implementation, asset usage, and audio",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Designed, implemented, and documented a satirical branching narrative game</li>
             <li>Full stack development including art, design, code, audio, and voice acting</li>
@@ -1291,7 +1292,7 @@ const projects = [
         date: "2024-01-24",
         shortDescription: "Creating a prototype for what would later become Creation, using Finite State Machines to simulate agents and encourage emergent behaviours. Also using flood fill, A* pathfinding, Navmesh, Perception systems, Utility theory and optimisation techniques",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Created AI agents using finite state machines, flood fill, A* pathfinding, navmeshes, perception systems, and utility theory</li>
             <li>Allowed user interaction with the NPC environment</li>
@@ -1312,7 +1313,7 @@ const projects = [
         date: "2024-04-25",
         shortDescription: "I researched verticality in system and level design for my dissertation, wrote an extensive literature review and made use of my findings in a design document and prototype",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Researched verticality in game design, wrote an extensive literature review</li>
             <li>Presented the collated findings and created a playable demo</li>
@@ -1334,7 +1335,7 @@ const projects = [
         date: "2024-05-19",
         shortDescription: "I redesigned certain elements of Press Space based on psychological principles and to make the opening of the game more engaging",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Redesigned game elements based on psychological principles</li>
             <li>Documented redesigns with visual aids</li>
@@ -1355,7 +1356,7 @@ const projects = [
         date: "2024-05-21",
         shortDescription: "Curation is a museum management sim developed with a team of 7 developers and 2 producers alongside Frontier Developments, I worked on areas of design and code and focused on that of the visitors (AI agents), but did design/implement a number of other systems",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Developed museum management sim with a team of 7 devs/2 producers, focusing on AI agents</li>
             <li>Collaborated on design documentation and pitch materials</li>
@@ -1377,7 +1378,7 @@ const projects = [
         date: "2024-06-20",
         shortDescription: "God's Spear is a first person action prototype where I worked on generalised design, analysing documentation and collaborating with production and leads",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Worked with a team of 5 core devs as a design consultant</li>
             <li>Remotely joined calls and contributed to project direction</li>
@@ -1397,7 +1398,7 @@ const projects = [
         date: "2024-08-02",
         shortDescription: "I created a portfolio website using HTML, CSS, and JavaScript. I then connected a custom domain and hosted the site",
         longDescription: `
-        <p><b>This project involved/resulted in:</b></p>
+        <p><b>This project involved being/resulted in:</b></p>
         <ul>
             <li>Created a functional portfolio website using HTML, CSS, and JavaScript, learning them in the process</li>
             <li>Aimed to design the website for ease of use</li>
