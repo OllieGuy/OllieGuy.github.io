@@ -872,6 +872,34 @@ const blogPosts = {
                 <li>Utilising Artificial Intelligence to speed up workflows</li>
             </ul>
         `,
+        type: 'none'
+    },
+    tiga: {
+        title: "TIGA Best Student Game",
+        date: "October 13, 2024",
+        summary: "Curation won the Creative Assembly Best Student Game 2024 TIGA award!",
+        thumbnail: "images/blog/tiga-thumbnail.jpg",
+        content: `
+        <p>After submitting Curation for the TIGA Best Student Game award, we received news a couple of months ago that we had made the shortlist, which we were ecstatic about. TIGA is a non-profit that represents the UK's video games industry, and hosts 2 awards ceremonies each year, one for industry, and one for the universities that teach relevant courses.</p><br>
+        <p>Upon reading the list of nominees (and having played some of them, even one at the Barclay's Game Frenzy a few months prior), I was sure one of the other games would win the crown jewel of awards at the show. As the livestream started, I watched alongside a couple of friends from the course, knowing that the award would be given out at the very end. The tension could be cut with a knife as the nominees were read out. As the winner was announced, I jumped out of my chair in a mixture of surprise and happiness - but mostly surprise. The group discord pretty quickly flooded with messages of reactions and congratulations from the client, lecturers, and other students alike.</p><br>
+        <p>Me and a some of the other group members are going to continue to work on the project to bring to the point of a Steam release in the near future, which would mark an important moment in our careers - the first shipped title! I also want to wish the next group of students on the new equivalent project the best of luck - they have a unique opportunity to make it 3 years in a row of the same project at Portsmouth winning the award!</p><br>
+        <p>Here is the game being announced as the winner at the TIGA ceremony:</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4ylan21oCXc?si=WKcZXqpxkGeQNJ8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        `,
+        tldr: `
+        <b>About</b>
+        <p>We won the Creative Assembly Best Student Game 2024 TIGA award!</p><br>
+        <b>Responsibilities</b>
+            <ul>
+                <li>Receive and award</li>
+                <li>Continue work on Curation</li>
+            </ul><br>
+        <b>Lessons</b>
+            <ul>
+                <li>Hard work pays off</li>
+                <li>Not letting impostor syndrome set in too badly</li>
+            </ul>
+        `,
         type: 'most-recent'
     },
 };
@@ -1354,7 +1382,7 @@ const projects = [
         thumbnail: "images/projects/curation-thumbnail.jpg",
         video: "images/projects/curation-video.mp4",
         date: "2024-05-21",
-        shortDescription: "Curation is a museum management sim developed with a team of 7 developers and 2 producers alongside Frontier Developments, I worked on areas of design and code and focused on that of the visitors (AI agents), but did design/implement a number of other systems",
+        shortDescription: "Curation is a TIGA award winning museum management sim developed with a team of 7 developers and 2 producers alongside Frontier Developments, I worked on areas of design and code and focused on that of the visitors (AI agents), but did design/implement a number of other systems",
         longDescription: `
         <p><b>This project involved being/resulted in:</b></p>
         <ul>
