@@ -900,6 +900,65 @@ const blogPosts = {
                 <li>Not letting impostor syndrome set in too badly</li>
             </ul>
         `,
+        type: 'none'
+    },
+    egx: {
+        title: "Exhibiting EGX/Comic-Con London",
+        date: "November 2, 2024",
+        summary: "Curation was chosen to represent the University of Portsmouth at EGX/Comic-Con London",
+        thumbnail: "images/blog/egx-thumbnail.jpg",
+        content: `
+        <p>Shortly after Curation won the Best Student Game award, we received an email from the events coordinator for the UoP, asking our producer if they could take a build of Curation to their stand at the EGX section of Comic-Con London.</p><br>
+        <p>We quickly raced to push out a build with all of our new features - saving/loading, some more objects to place, improved UX, and a new room dragger. After just about managing it on the morning of the deadline, we sent it over.</p><br>
+        <p>I then bought my tickets for Friday and Sunday at Comic Con, got a place to stay with a friend, then headed to London for the weekend. The Friday was great - I got to watch a number of interesting talks on the games industry and even a Baldur's Gate 3 panel. Unfortunately, the university couldn't get their computer working, so Curation was running on a very low-spec laptop (at 4k resolution, which we found out later), resulting in choppy gameplay.</p><br>
+        <p>Thankfully, this was fixed on Saturday, and Curation was running buttery smooth as usual - by the time I came back on Sunday, a number of people had really enjoyed their time with the game, and even asked for the Steam page (which is unfortunately still WIP). I spent a lot of time with my friends, and had a much more relaxed day of visiting the various stalls around the convention. I also volunteered to help at the UoP stand for a little bit, too, to talk to prospective students while the usual people attending were on a break.</p><br>
+        <p>Overall, it was great to see a game that I worked so hard on be experienced by so many people, as well as having a great time at the convention more generally!</p><br>
+        <img src='images/blog/egx-stand.jpg' alt='The stand at EGX' width="50%" height="50%" ><br>
+        `,
+        tldr: `
+        <b>About</b>
+        <p>Curation was selected by the University of Portsmouth's events team to represent the course at the university's stand at EGX/Comic-Con London</p><br>
+        <b>Responsibilities</b>
+            <ul>
+                <li>Be present for our game being showcased at a national event</li>
+                <li>Help non-gamers navigate the game for the first time</li>
+                <li>Talking with members of the public interested in the University</li>
+            </ul><br>
+        <b>Lessons</b>
+            <ul>
+                <li>Learning about exhitbiting my work at a renowned event</li>
+                <li>Not panicking when something goes wrong with the game demo</li>
+            </ul>
+        `,
+        type: 'none'
+    },
+    steam: {
+        title: "Curation on the Steam Store",
+        date: "November 7, 2024",
+        summary: "We set up a company to continue development on Curation and the Steam store page was approved",
+        thumbnail: "images/blog/steam-thumbnail.jpg",
+        content: `
+        <p>Since we received the request to exhibit Curation at EGX, we were rushing to create a Steam page for it, as we knew it would be a tremendous opportunity to market the game. We managed to set up our company, Circle Back Limited, in time, but couldn't pass the approval process for a company bank account (a necessity for a Steamworks developer account) before the weekend of Comic-Con/EGX, so ended up linking our Itch.io page at the stall.</p><br>
+        <p>After all the prerequisite paperwork was done and necessary information filled in, we finally managed to publish our steam page today (November 7th). I created the description and promotional images for the game, and we are hoping to release the game fully in Q1 2025 - making it my first released title.</p><br>
+        <img src='images/blog/steam-thumbnail.jpg' alt='The stand at EGX' width="50%" height="50%" ><br>
+        <p><a href="https://store.steampowered.com/app/3323650/Curation/" target="_blank" class="blog-play-btn">Steam Page</a></p>
+        `,
+        tldr: `
+        <b>About</b>
+        <p>We published a Steam page for Curation and hope to release in early 2025</p><br>
+        <b>Responsibilities</b>
+            <ul>
+                <li>Develop an understanding of how to create a page for a game on Steam</li>
+                <li>Creating promotional material for the game</li>
+            </ul><br>
+        <b>Lessons</b>
+            <ul>
+                <li>Creating a company</li>
+                <li>Curating a Steam product page</li>
+            </ul>
+        <br>
+        <p><a href="https://store.steampowered.com/app/3323650/Curation/" target="_blank" class="blog-play-btn">Steam Page</a></p>
+        `,
         type: 'most-recent'
     },
 };
